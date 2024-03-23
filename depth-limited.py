@@ -1,7 +1,7 @@
 from species import Species, SpeciesGraph
 import json
       
-with open(r'C:\soic\uni\semester4\ai\ids-dls\data\sea-animal-graph.json', 'r') as f:
+with open(r'sea-animal-graph.json', 'r') as f:
     species_data = json.load(f)
 
 species_graph = SpeciesGraph(species_data)
