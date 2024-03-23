@@ -1,0 +1,514 @@
+[   
+    {
+        "name": "Surface",
+        "next": ["Manatee", "Atlantic Salmon", "Striped Bass", "Staghorn Coral"]
+    },
+    {
+        "name": "Manatee",
+        "next": ["European Pilchard", "Polar Bear"]
+    },
+    {
+        "name": "Bottlenose Dolphin Dive",
+        "next": []
+    },
+    {
+        "name": "Green Sea Turtle",
+        "next": ["Atlantic Mackerel", "Dentex"]
+    },
+    {
+        "name": "Beluga Whale",
+        "next": ["Blue Fish"]
+    },
+    {
+        "name": "Sea Lion",
+        "next": ["Bull Shark"]
+    },
+    {
+        "name": "Velvet Crab",
+        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+    },
+    {
+        "name": "Staghorn Coral",
+        "next": ["European Pilchard", "Polar Bear"]
+    },
+    {
+        "name": "Killer Whale",
+        "next": ["Queen Snapper", "Pelagic Stingray"]
+    },
+    {
+        "name": "Barramundi",
+        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+    },
+    {
+        "name": "Great Barracuda",
+        "next": ["Queen Snapper", "Pelagic Stingray"]
+    },
+    {
+        "name": "Spotted Bass",
+        "next": ["Blue Fish"]
+    },
+    {
+        "name": "Striped Bass",
+        "next": ["European Pilchard", "Polar Bear"]
+    },
+    {
+        "name": "Black Drum",
+        "next": ["Atlantic Mackerel", "Dentex"]
+    },
+    {
+        "name": "Blue Fish",
+        "next": ["Great Barracuda", "Killer Whale"]
+    },
+    {
+        "name": "Spiny Dogfish",
+        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+    },
+    {
+        "name": "Dentex",
+        "next": ["Thick-Billed Murre Dive", "Wolf Eel", "Haddock"]
+    },
+    {
+        "name": "Mahi-mahi",
+        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+    },
+    {
+        "name": "Flounder",
+        "next": ["Blue Fish"]
+    },
+    {
+        "name": "Bull Shark",
+        "next": ["Black Drum", "Green Sea Turtle"]
+    },
+    {
+        "name": "Great White Shark",
+        "next": ["Gummy Shark", "Human"]
+    },
+    {
+        "name": "Blue Shark",
+        "next": []
+    },
+    {
+        "name": "Gummy Shark",
+        "next": []
+    },
+    {
+        "name": "Mako Shark",
+        "next": []
+    },
+    {
+        "name": "Sunfish",
+        "next": []
+    },
+    {
+        "name": "Human",
+        "next": []
+    },
+    {
+        "name": "Atlantic Mackerel",
+        "next": ["Thick-Billed Murre Dive", "Wolf Eel", "Haddock"]
+    },
+    {
+        "name": "Queen Snapper",
+        "next": ["Sea Lion", "Leptoseris"]
+    },
+    {
+        "name": "Pelagic Stingray",
+        "next": ["Sea Lion", "Leptoseris"]
+    },
+    {
+        "name": "Deepest dive of a Narwhal",
+        "next": []
+    },
+    {
+        "name": "Frilled Shark",
+        "next": []
+    },
+    {
+        "name": "Viperfish",
+        "next": []
+    },
+    {
+        "name": "Anglerfish",
+        "next": []
+    },
+    {
+        "name": "Leatherback Sea Turtle",
+        "next": []
+    },
+    {
+        "name": "Olive Ridly Sea Turtle",
+        "next": ["Great White Shark", "Bottlenose Dolphin Dive", "Cockatoo Squid"]
+    },
+    {
+        "name": "Sea Pen",
+        "next": []
+    },
+    {
+        "name": "Dragonfish",
+        "next": []
+    },
+    {
+        "name": "Orange Roughy",
+        "next": []
+    },
+    {
+        "name": "Wolf Eel",
+        "next": ["Chain Catshark", "Kelp", "Terrible Claw Lobster", "Olive Ridly Sea Turtle"]
+    },
+    {
+        "name": "Swordfish",
+        "next": []
+    },
+    {
+        "name": "Chain Catshark",
+        "next": ["Great White Shark", "Bottlenose Dolphin Dive", "Cockatoo Squid"]
+    },
+    {
+        "name": "Atlantic Cod",
+        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+    },
+    {
+        "name": "Pacific Cod",
+        "next": []
+    },
+    {
+        "name": "European Pilchard",
+        "next": ["Barramundi", "Clown Fish", "Velvet Crab", "Blue Tang"]
+    },
+    {
+        "name": "Atlantic Salmon",
+        "next": ["European Pilchard", "Polar Bear"]
+    },
+    {
+        "name": "Chinook Salmon",
+        "next": []
+    },
+    {
+        "name": "Blue Tang",
+        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+    },
+    {
+        "name": "Clown Fish",
+        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+    },
+    {
+        "name": "Haddock",
+        "next": ["Chain Catshark", "Kelp", "Terrible Claw Lobster", "Olive Ridly Sea Turtle"]
+    },
+    {
+        "name": "Vampire Squid",
+        "next": []
+    },
+    {
+        "name": "Japanese Spider Crab",
+        "next": []
+    },
+    {
+        "name": "Firefly Squid",
+        "next": []
+    },
+    {
+        "name": "Sperm Whale Dive",
+        "next": []
+    },
+    {
+        "name": "Yeti Crab",
+        "next": []
+    },
+    {
+        "name": "Big Red Jellyfish",
+        "next": []
+    },
+    {
+        "name": "Jewel Squid",
+        "next": []
+    },
+    {
+        "name": "Cockatoo Squid",
+        "next": []
+    },
+    {
+        "name": "Phronima",
+        "next": []
+    },
+    {
+        "name": "Bubblegum Coral",
+        "next": []
+    },
+    {
+        "name": "Giant Isopod",
+        "next": []
+    },
+    {
+        "name": "Coelacanth",
+        "next": []
+    },
+    {
+        "name": "Colossal Squid",
+        "next": []
+    },
+    {
+        "name": "Goblin Shark",
+        "next": []
+    },
+    {
+        "name": "Chimaeras",
+        "next": []
+    },
+    {
+        "name": "Black Swallower",
+        "next": []
+    },
+    {
+        "name": "Monkfish",
+        "next": []
+    },
+    {
+        "name": "Giant Pacific Octopus",
+        "next": []
+    },
+    {
+        "name": "Sixgill Shark",
+        "next": []
+    },
+    {
+        "name": "Emperor Penguin Dive",
+        "next": []
+    },
+    {
+        "name": "Elephant Seal Dive",
+        "next": []
+    },
+    {
+        "name": "Baird's Beaked Whale",
+        "next": []
+    },
+    {
+        "name": "Leptoseris",
+        "next": ["Bull Shark"]
+    },
+    {
+        "name": "Gigantactis",
+        "next": []
+    },
+    {
+        "name": "Bigeye Tuna",
+        "next": []
+    },
+    {
+        "name": "Bamboo Coral",
+        "next": []
+    },
+    {
+        "name": "Nautilus",
+        "next": []
+    },
+    {
+        "name": "Hatchetfish",
+        "next": []
+    },
+    {
+        "name": "Giant Oarfish",
+        "next": []
+    },
+    {
+        "name": "Giant Tube Worm",
+        "next": []
+    },
+    {
+        "name": "Telescope Octopus",
+        "next": []
+    },
+    {
+        "name": "Barreleye Fish",
+        "next": []
+    },
+    {
+        "name": "Squidworm",
+        "next": []
+    },
+    {
+        "name": "Sea Angel",
+        "next": []
+    },
+    {
+        "name": "Marrus orthocanna",
+        "next": []
+    },
+    {
+        "name": "Scaly-foot Snail",
+        "next": []
+    },
+    {
+        "name": "Vigtorniella Worm",
+        "next": []
+    },
+    {
+        "name": "Terrible Claw Lobster",
+        "next": ["Great White Shark", "Bottlenose Dolphin Dive", "Cockatoo Squid"]
+    },
+    {
+        "name": "Venus Flytrap Sea Anemone",
+        "next": []
+    },
+    {
+        "name": "Leafy Sea Dragon",
+        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+    },
+    {
+        "name": "Headless Chicken Fish",
+        "next": []
+    },
+    {
+        "name": "Greenland Halibut",
+        "next": []
+    },
+    {
+        "name": "King Crab",
+        "next": []
+    },
+    {
+        "name": "Greenland Shark",
+        "next": []
+    },
+    {
+        "name": "Blobfish",
+        "next": []
+    },
+    {
+        "name": "Zombie Worm",
+        "next": []
+    },
+    {
+        "name": "Polar Bear",
+        "next": ["Barramundi", "Clown Fish", "Velvet Crab", "Blue Tang"]
+    },
+    {
+        "name": "Kelp",
+        "next": ["Great White Shark", "Bottlenose Dolphin Dive", "Cockatoo Squid"]
+    },
+    {
+        "name": "Thick-Billed Murre Dive",
+        "next": ["Chain Catshark", "Kelp", "Terrible Claw Lobster", "Olive Ridly Sea Turtle"]
+    },
+    {
+        "name": "Barnacle",
+        "next": ["Blue Fish"]
+    },
+    {
+        "name": "Gulper Eel",
+        "next": []
+    },
+    {
+        "name": "Amphipoda",
+        "next": []
+    },
+    {
+        "name": "Patagonian Toothfish",
+        "next": []
+    },
+    {
+        "name": "Flabby Whalefish",
+        "next": []
+    },
+    {
+        "name": "Atolla Jellyfish",
+        "next": []
+    },
+    {
+        "name": "Fangtooth",
+        "next": []
+    },
+    {
+        "name": "Titanic Wreckage",
+        "next": []
+    },
+    {
+        "name": "Caridea",
+        "next": []
+    },
+    {
+        "name": "Cuvier's Beaked Whale Dive",
+        "next": []
+    },
+    {
+        "name": "Lizardfish",
+        "next": []
+    },
+    {
+        "name": "Harp Sponge",
+        "next": []
+    },
+    {
+        "name": "Dumbo Octopus",
+        "next": []
+    },
+    {
+        "name": "Cosmic Jellyfish",
+        "next": []
+    },
+    {
+        "name": "Brittle Star",
+        "next": []
+    },
+    {
+        "name": "Sea Pig",
+        "next": []
+    },
+    {
+        "name": "Megamouth Shark",
+        "next": []
+    },
+    {
+        "name": "Stoplight Loosejaw",
+        "next": []
+    },
+    {
+        "name": "Tripod Fish",
+        "next": []
+    },
+    {
+        "name": "Faceless Fish",
+        "next": []
+    },
+    {
+        "name": "Cookiecutter Shark",
+        "next": []
+    },
+    {
+        "name": "Glass Sponge",
+        "next": []
+    },
+    {
+        "name": "Abyssal Spiderfish",
+        "next": []
+    },
+    {
+        "name": "Comb Jelly",
+        "next": []
+    },
+    {
+        "name": "Hadal Snailfish",
+        "next": []
+    },
+    {
+        "name": "USS Johnston Shipwreck",
+        "next": []
+    },
+    {
+        "name": "Grenadier",
+        "next": []
+    },
+    {
+        "name": "Cusk Eel",
+        "next": []
+    },
+    {
+        "name": "Chiton",
+        "next": []
+    },
+    {
+        "name": "Hadal Amphipod",
+        "next": []
+    }
+]
