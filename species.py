@@ -39,7 +39,7 @@ class SpeciesGraph:
         else:
             for next_species in species.next:
                 result = cls.depth_limited_search(next_species, target_species_name, depth - 1)
-                if result:
+                if result: 
                     return True
         return False
     
@@ -55,18 +55,31 @@ class SpeciesGraph:
                 if path is not None:
                     return [species] + path
         return None
-
+    
     @classmethod
-    def iterative_deepening_search(cls, species, target_species_name, max_depth):
-        for depth_limit in range(max_depth + 1):
-            if cls.depth_limited_search(species, target_species_name, depth_limit):
-                return True
-        return False
+    def iterative_deepening_search(cls, start_species_name, target_species_name, max_depth):
+        iter = 1
+        while True:
+            if cls.depth_limited_search(start_species_name, target_species_name, max_depth):
+                return True, iter
+            max_depth += 1
+            iter += 1
 
     @classmethod
     def path_iterative_deepening_search(cls, species, target_species_name, max_depth):
-        for depth_limit in range(max_depth + 1):
-            path = cls.path_depth_limited_search(species, target_species_name, depth_limit)
+        while True:
+            path = cls.path_depth_limited_search(species, target_species_name, max_depth)
             if path:
                 return path
-        return None
+            max_depth += 1
+    
+def calculate_graph_depth(real_depth:int):
+    depth_dict = {
+        20: 1, 40: 2, 60: 3, 80: 4, 100: 5, 120: 6, 140: 7, 160: 8, 180: 9, 200: 10,
+        220: 11, 250: 12, 300: 13, 350: 14, 400: 15, 450: 16, 500: 17, 550: 18, 600: 19, 650: 20,
+        700: 21, 800: 22, 900: 23, 1000: 24, 1150: 25, 1300: 26, 1450: 27, 1600: 28, 1800: 29, 2000: 30,
+        2200: 31, 2600: 32, 3000: 33, 3400: 34, 3800: 35, 4300: 36, 4800: 37, 5300: 38, 6300: 39, 6301: 40 
+    }
+    
+    closest_depth = min(depth_dict.keys(), key=lambda x: abs(x - real_depth))
+    return depth_dict[closest_depth]

@@ -5,11 +5,11 @@
     },
     {
         "name": "Manatee",
-        "next": ["European Pilchard", "Polar Bear"]
+        "next": ["Polar Bear"]
     },
     {
         "name": "Bottlenose Dolphin Dive",
-        "next": []
+        "next": ["Human", "Gummy Shark"]
     },
     {
         "name": "Green Sea Turtle",
@@ -29,15 +29,15 @@
     },
     {
         "name": "Staghorn Coral",
-        "next": ["European Pilchard", "Polar Bear"]
+        "next": ["European Pilchard"]
     },
     {
         "name": "Killer Whale",
-        "next": ["Queen Snapper", "Pelagic Stingray"]
+        "next": ["Pelagic Stingray"]
     },
     {
         "name": "Barramundi",
-        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+        "next": ["Atlantic Cod", "Spiny Dogfish"]
     },
     {
         "name": "Great Barracuda",
@@ -57,11 +57,11 @@
     },
     {
         "name": "Blue Fish",
-        "next": ["Great Barracuda", "Killer Whale"]
+        "next": ["Queen Snapper"]
     },
     {
         "name": "Spiny Dogfish",
-        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+        "next": []
     },
     {
         "name": "Dentex",
@@ -69,11 +69,11 @@
     },
     {
         "name": "Mahi-mahi",
-        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+        "next": ["Flounder", "Beluga Whale", "Barnacle"]
     },
     {
         "name": "Flounder",
-        "next": ["Blue Fish"]
+        "next": ["Blue Fish", "Killer Whale", "Great Barracuda"]
     },
     {
         "name": "Bull Shark",
@@ -85,23 +85,23 @@
     },
     {
         "name": "Blue Shark",
-        "next": []
+        "next": ["Bigeye Tuna"]
     },
     {
         "name": "Gummy Shark",
-        "next": []
+        "next": ["Blue Shark"]
     },
     {
         "name": "Mako Shark",
-        "next": []
+        "next": ["Swordfish"]
     },
     {
         "name": "Sunfish",
-        "next": []
+        "next": ["Bamboo Coral", "Japanese Spider Crab"]
     },
     {
         "name": "Human",
-        "next": []
+        "next": ["Blue Shark", "Firefly Squid"]
     },
     {
         "name": "Atlantic Mackerel",
@@ -109,7 +109,7 @@
     },
     {
         "name": "Queen Snapper",
-        "next": ["Sea Lion", "Leptoseris"]
+        "next": ["Leptoseris"]
     },
     {
         "name": "Pelagic Stingray",
@@ -121,7 +121,7 @@
     },
     {
         "name": "Frilled Shark",
-        "next": []
+        "next": ["Hatchetfish"]
     },
     {
         "name": "Viperfish",
@@ -129,11 +129,11 @@
     },
     {
         "name": "Anglerfish",
-        "next": []
+        "next": ["Blobfish", "Goblin Shark", "Frilled Shark"]
     },
     {
         "name": "Leatherback Sea Turtle",
-        "next": []
+        "next": ["Anglerfish", "Phronima", "Venus Flytrap Sea Anemone"]
     },
     {
         "name": "Olive Ridly Sea Turtle",
@@ -145,19 +145,19 @@
     },
     {
         "name": "Dragonfish",
-        "next": []
+        "next": ["Giant Tube Worm", "Greenland Halibut"]
     },
     {
         "name": "Orange Roughy",
-        "next": []
+        "next": ["Frilled Shark"]
     },
     {
         "name": "Wolf Eel",
-        "next": ["Chain Catshark", "Kelp", "Terrible Claw Lobster", "Olive Ridly Sea Turtle"]
+        "next": []
     },
     {
         "name": "Swordfish",
-        "next": []
+        "next": ["Sunfish", "Nautilus"]
     },
     {
         "name": "Chain Catshark",
@@ -165,31 +165,31 @@
     },
     {
         "name": "Atlantic Cod",
-        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+        "next": ["Flounder", "Spotted Bass", "Spiny Dogfish"]
     },
     {
         "name": "Pacific Cod",
-        "next": []
+        "next": ["Leatherback Sea Turtle"]
     },
     {
         "name": "European Pilchard",
-        "next": ["Barramundi", "Clown Fish", "Velvet Crab", "Blue Tang"]
+        "next": ["Mahi-mahi", "Leafy Sea Dragon", "Atlantic Cod"]
     },
     {
         "name": "Atlantic Salmon",
-        "next": ["European Pilchard", "Polar Bear"]
+        "next": ["Polar Bear"]
     },
     {
         "name": "Chinook Salmon",
-        "next": []
+        "next": ["Emperor Penguin Dive"]
     },
     {
         "name": "Blue Tang",
-        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+        "next": ["Leafy Sea Dragon", "Mahi-mahi"]
     },
     {
         "name": "Clown Fish",
-        "next": ["Atlantic Cod", "Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
+        "next": ["Leafy Sea Dragon", "Spiny Dogfish", "Mahi-mahi"]
     },
     {
         "name": "Haddock",
@@ -197,11 +197,11 @@
     },
     {
         "name": "Vampire Squid",
-        "next": []
+        "next": ["Cosmic Jellyfish", "Gulper Eel", "Harp Sponge", "Cookiecutter Shark"]
     },
     {
         "name": "Japanese Spider Crab",
-        "next": []
+        "next": ["Coelacanth"]
     },
     {
         "name": "Firefly Squid",
@@ -213,15 +213,15 @@
     },
     {
         "name": "Yeti Crab",
-        "next": []
+        "next": ["Sea Pen"]
     },
     {
         "name": "Big Red Jellyfish",
-        "next": []
+        "next": ["Yeti Crab"]
     },
     {
         "name": "Jewel Squid",
-        "next": []
+        "next": ["Colossal Squid", "Greenland Shark"]
     },
     {
         "name": "Cockatoo Squid",
@@ -241,19 +241,19 @@
     },
     {
         "name": "Coelacanth",
-        "next": []
+        "next": ["King Crab", "Giant Pacific Octopus"]
     },
     {
         "name": "Colossal Squid",
-        "next": []
+        "next": ["Barreleye Fish", "Elephant Seal Dive", "Gigantactis", "Chimaeras"]
     },
     {
         "name": "Goblin Shark",
-        "next": []
+        "next": ["Hatchetfish", "Dragonfish"]
     },
     {
         "name": "Chimaeras",
-        "next": []
+        "next": ["Black Swallower", "Viperfish", "Vampire Squid", "Cuvier's Beaked Whale Dive", "Zombie Worm", "Headless Chicken Fish"]
     },
     {
         "name": "Black Swallower",
@@ -261,15 +261,15 @@
     },
     {
         "name": "Monkfish",
-        "next": []
+        "next": ["Baird's Beaked Whale", "Leatherback Sea Turtle"]
     },
     {
         "name": "Giant Pacific Octopus",
-        "next": []
+        "next": ["Giant Oarfish", "Pacific Cod", "Monkfish", "Vigtorniella Worm", "Marrus Orthocanna"]
     },
     {
         "name": "Sixgill Shark",
-        "next": []
+        "next": ["Jewel Squid", "Telescope Octopus"]
     },
     {
         "name": "Emperor Penguin Dive",
@@ -281,7 +281,7 @@
     },
     {
         "name": "Baird's Beaked Whale",
-        "next": []
+        "next": ["Anglerfish", "Orange Roughy"]
     },
     {
         "name": "Leptoseris",
@@ -289,35 +289,35 @@
     },
     {
         "name": "Gigantactis",
-        "next": []
+        "next": ["Squidworm", "Black Swallower", "Viperfish", "Scaly-foot Snail", "Zombie Worm"]
     },
     {
         "name": "Bigeye Tuna",
-        "next": []
+        "next": ["Sea Angel", "Chinook Salmon", "Mako Shark"]
     },
     {
         "name": "Bamboo Coral",
-        "next": []
+        "next": ["Coelacanth"]
     },
     {
         "name": "Nautilus",
-        "next": []
+        "next": ["Bamboo Coral"]
     },
     {
         "name": "Hatchetfish",
-        "next": []
+        "next": ["Big Red Jellyfish", "Greenland Halibut"]
     },
     {
         "name": "Giant Oarfish",
-        "next": []
+        "next": ["Sperm Whale Dive", "Baird's Beaked Whale"]
     },
     {
         "name": "Giant Tube Worm",
-        "next": []
+        "next": ["Yeti Crab"]
     },
     {
         "name": "Telescope Octopus",
-        "next": []
+        "next": ["Giant Isopod", "Greenland Shark", "Colossal Squid"]
     },
     {
         "name": "Barreleye Fish",
@@ -329,10 +329,10 @@
     },
     {
         "name": "Sea Angel",
-        "next": []
+        "next": ["Emperor Penguin Dive"]
     },
     {
-        "name": "Marrus orthocanna",
+        "name": "Marrus Orthocanna",
         "next": []
     },
     {
@@ -345,7 +345,7 @@
     },
     {
         "name": "Terrible Claw Lobster",
-        "next": ["Great White Shark", "Bottlenose Dolphin Dive", "Cockatoo Squid"]
+        "next": ["Great White Shark"]
     },
     {
         "name": "Venus Flytrap Sea Anemone",
@@ -353,7 +353,7 @@
     },
     {
         "name": "Leafy Sea Dragon",
-        "next": ["Flounder", "Spotted Bass", "Beluga Whale", "Barnacle"]
+        "next": ["Flounder","Barnacle"]
     },
     {
         "name": "Headless Chicken Fish",
@@ -361,7 +361,7 @@
     },
     {
         "name": "Greenland Halibut",
-        "next": []
+        "next": ["Sixgill Shark", "Yeti Crab", "Deepest dive of a Narwhal"]
     },
     {
         "name": "King Crab",
@@ -369,11 +369,11 @@
     },
     {
         "name": "Greenland Shark",
-        "next": []
+        "next": ["Barreleye Fish", "Elephant Seal Dive"]
     },
     {
         "name": "Blobfish",
-        "next": []
+        "next": ["Bubblegum Coral", "Hatchetfish", "Dragonfish"]
     },
     {
         "name": "Zombie Worm",
@@ -381,27 +381,27 @@
     },
     {
         "name": "Polar Bear",
-        "next": ["Barramundi", "Clown Fish", "Velvet Crab", "Blue Tang"]
+        "next": ["Atlantic Cod", "Spiny Dogfish"]
     },
     {
         "name": "Kelp",
-        "next": ["Great White Shark", "Bottlenose Dolphin Dive", "Cockatoo Squid"]
+        "next": ["Cockatoo Squid"]
     },
     {
         "name": "Thick-Billed Murre Dive",
-        "next": ["Chain Catshark", "Kelp", "Terrible Claw Lobster", "Olive Ridly Sea Turtle"]
+        "next": ["Chain Catshark", "Terrible Claw Lobster", "Olive Ridly Sea Turtle"]
     },
     {
         "name": "Barnacle",
-        "next": ["Blue Fish"]
+        "next": ["Blue Fish", "Great Barracuda"]
     },
     {
         "name": "Gulper Eel",
-        "next": []
+        "next": ["Lizardfish"]
     },
     {
         "name": "Amphipoda",
-        "next": []
+        "next": ["Brittle Star", "Abyssal Spiderfish"]
     },
     {
         "name": "Patagonian Toothfish",
@@ -409,15 +409,15 @@
     },
     {
         "name": "Flabby Whalefish",
-        "next": []
+        "next": ["Dumbo Octopus", "Atolla Jellyfish", "Patagonian Toothfish"]
     },
     {
         "name": "Atolla Jellyfish",
-        "next": []
+        "next": ["Sea Pig", "Megamouth Shark", "Fangtooth", "Tripod Fish"]
     },
     {
         "name": "Fangtooth",
-        "next": []
+        "next": ["Faceless Fish", "Amphipoda", "Caridea"]
     },
     {
         "name": "Titanic Wreckage",
@@ -429,11 +429,11 @@
     },
     {
         "name": "Cuvier's Beaked Whale Dive",
-        "next": []
+        "next": ["Glass Sponge", "Gulper Eel", "Cosmic Jellyfish", "Stoplight Loosejaw", "Cookiecutter Shark"]
     },
     {
         "name": "Lizardfish",
-        "next": []
+        "next": ["Dumbo Octopus", "Patagonian Toothfish", "Atolla Jellyfish"]
     },
     {
         "name": "Harp Sponge",
@@ -441,15 +441,15 @@
     },
     {
         "name": "Dumbo Octopus",
-        "next": []
+        "next": ["Sea Pig"]
     },
     {
         "name": "Cosmic Jellyfish",
-        "next": []
+        "next": ["Lizardfish", "Flabby Whalefish", "Titanic Wreckage"]
     },
     {
         "name": "Brittle Star",
-        "next": []
+        "next": ["USS Johnston Shipwreck"]
     },
     {
         "name": "Sea Pig",
@@ -457,7 +457,7 @@
     },
     {
         "name": "Megamouth Shark",
-        "next": []
+        "next": ["Faceless Fish"]
     },
     {
         "name": "Stoplight Loosejaw",
@@ -465,15 +465,15 @@
     },
     {
         "name": "Tripod Fish",
-        "next": []
+        "next": ["Caridea", "Faceless Fish"]
     },
     {
         "name": "Faceless Fish",
-        "next": []
+        "next": ["Abyssal Spiderfish", "Brittle Star"]
     },
     {
         "name": "Cookiecutter Shark",
-        "next": []
+        "next": ["Lizardfish", "Flabby Whalefish", "Titanic Wreckage"]
     },
     {
         "name": "Glass Sponge",
@@ -481,7 +481,7 @@
     },
     {
         "name": "Abyssal Spiderfish",
-        "next": []
+        "next": ["USS Johnston Shipwreck"]
     },
     {
         "name": "Comb Jelly",
@@ -493,7 +493,7 @@
     },
     {
         "name": "USS Johnston Shipwreck",
-        "next": []
+        "next": ["Grenadier", "Chiton", "Comb Jelly", "Hadal Snailfish", "Cusk Eel", "Hadal Amphipod"]
     },
     {
         "name": "Grenadier",
