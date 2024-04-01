@@ -6,12 +6,14 @@ with open(r'sea-animal-graph.json', 'r') as f:
 
 species_graph = SpeciesGraph(species_data)
 
+print(f"Welcome to ocean-fish!!\n{'=' * 30}")
 start_species_name = "Surface"
-target_species_name = input("Which Species do you want to find? ")
-max_depth = int(input("How deep do you want to do in each iteration? "))
+target_species_name = input("Which Species do you want to find?: ")
+max_depth = int(input("How deep do you want to do in each iteration? (meter): "))
+graph_depth = calculate_graph_depth(max_depth)
 
-print(f"Iterative Deepening Search for {target_species_name} (Max Depth per iteration: {max_depth}):")
-result, iteration = SpeciesGraph.iterative_deepening_search(species_graph.species_dict[start_species_name], target_species_name, max_depth)
+print(f"Iterative Deepening Search for {target_species_name} (Max Depth per iteration: {max_depth}m):")
+result, iteration = SpeciesGraph.iterative_deepening_search(species_graph.species_dict[start_species_name], target_species_name, graph_depth)
 if result:
     print("=" * 30)
     print("Species Found!")

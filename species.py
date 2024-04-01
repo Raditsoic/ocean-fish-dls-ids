@@ -1,3 +1,13 @@
+depth_dict = {
+        20: 1, 40: 2, 60: 3, 80: 4, 100: 5, 120: 6, 140: 7, 160: 8, 180: 9, 200: 10,
+        220: 11, 250: 12, 300: 13, 350: 14, 400: 15, 450: 16, 500: 17, 550: 18, 600: 19, 650: 20,
+        700: 21, 800: 22, 900: 23, 1000: 24, 1150: 25, 1300: 26, 1450: 27, 1600: 28, 1800: 29, 2000: 30,
+        2200: 31, 2600: 32, 3000: 33, 3400: 34, 3800: 35, 4300: 36, 4800: 37, 5300: 38, 6300: 39, 6301: 40 
+    }
+    
+real_depth = {v: k for k, v in depth_dict.items()}
+real_depth[0] = 0;    
+
 class Species:
     def __init__(self, name):
         self.name = name
@@ -24,7 +34,7 @@ class SpeciesGraph:
         if visited is None:
             visited = set()
         visited.add(species)
-        print(f"{species.name} (Depth: {depth})")
+        print(f"{species.name} (Depth: {real_depth[depth]}m)")
         if depth < depth_limit:
             for next_species in species.next:
                 if next_species not in visited:
@@ -73,13 +83,7 @@ class SpeciesGraph:
                 return path
             max_depth += 1
     
-def calculate_graph_depth(real_depth:int):
-    depth_dict = {
-        20: 1, 40: 2, 60: 3, 80: 4, 100: 5, 120: 6, 140: 7, 160: 8, 180: 9, 200: 10,
-        220: 11, 250: 12, 300: 13, 350: 14, 400: 15, 450: 16, 500: 17, 550: 18, 600: 19, 650: 20,
-        700: 21, 800: 22, 900: 23, 1000: 24, 1150: 25, 1300: 26, 1450: 27, 1600: 28, 1800: 29, 2000: 30,
-        2200: 31, 2600: 32, 3000: 33, 3400: 34, 3800: 35, 4300: 36, 4800: 37, 5300: 38, 6300: 39, 6301: 40 
-    }
-    
+def calculate_graph_depth(real_depth:int, depth_dict:dict=depth_dict) -> int:
     closest_depth = min(depth_dict.keys(), key=lambda x: abs(x - real_depth))
     return depth_dict[closest_depth]
+
